@@ -22,9 +22,15 @@ bun i -g vscode-langservers-extracted
 bun i -g typescript typescript-language-server
 bun i -g bash-language-server
 
-# install texlab
+cargo install --git https://github.com/Myriad-Dreamin/tinymist --locked tinymist-cli
+
+# install typst
 # install marksman
 # install lua-language-server
+
+
+# I still haven't figured out a good latex setup yet.
+# install texlab
 ```
 
 ## Conform Setup Commands
@@ -38,10 +44,13 @@ bun i -g @taplo/cli
 bun i -g @fsouza/prettierd
 bun i -g prettier
 
-cargo install tex-fmt
 cargo install stylua
 
 # install shellcheck
+# install typstyle
+
+# I still haven't figured out a good latex setup yet
+# cargo install tex-fmt
 
 ```
 
@@ -58,3 +67,5 @@ cargo install stylua
 When nightly becomes stable:
 
 - [ ] Switch to pack, create packer version
+
+- [ ] Convert Commands to Lua Functions

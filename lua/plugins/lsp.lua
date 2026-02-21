@@ -18,6 +18,9 @@ return {
     vim.lsp.enable("rumdl")
     vim.lsp.enable("texlab")
 
+    -- Typst
+    vim.lsp.enable("tinymist")
+
     -- Lua
     vim.lsp.config("lua_ls", {
       on_init = function(client)

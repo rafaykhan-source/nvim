@@ -15,7 +15,10 @@ return {
           ignored = true,
           exclude = {
             ".git/*",
+            -- Web Development
             "node_modules/*",
+            ".next/",
+            -- Python Projects
             ".venv/*",
             "**/__pycache__/*",
             "build/*",

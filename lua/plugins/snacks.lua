@@ -98,7 +98,7 @@ return {
 
   keys = {
     {
-      "<leader>gb",
+      "<leader>G",
       function()
         Snacks.gitbrowse()
       end,

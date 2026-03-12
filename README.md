@@ -60,12 +60,13 @@ cargo install stylua
 - [x] Consolidate colorscheme plugins into a `colorscheme.lua` file
 - [x] Add GitSigns
 - [x] Add BigFile
+- [x] Add typst support
+
 - [ ] Remove lspconfig and self-configure and add a `lsp` directory
-- [ ] Add typst support
 - [ ] Add Neogen for autodocstring support
+- [ ] Alternatively consider snippets for docstrings
 
 When nightly becomes stable:
 
 - [ ] Switch to pack, create packer version
-
 - [ ] Convert Commands to Lua Functions
